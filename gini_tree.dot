@@ -1,0 +1,8 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Current Loan Amount <= 0.496\ngini = 0.462\nsamples = 24472\nvalue = [15591, 8881]"] ;
+1 [label="gini = 0.405\nsamples = 21646\nvalue = [15544, 6102]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.033\nsamples = 2826\nvalue = [47, 2779]"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
